@@ -1,1 +1,158 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" /> 
+   <title>Title Bar Text</title>
 
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet"> 
+
+
+<script>
+    /*window.alert("Welcome to my page :)");*/
+</script>
+
+
+</head>
+
+
+
+
+
+
+
+<style>
+body{
+    background-color: rgb(214, 211, 255);
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+}
+
+
+     /* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: 'Work Sans', sans-serif;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+    float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(86, 84, 112);
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 5%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+} 
+
+
+/*style change when width smaller than 600px*/
+@media (max-width: 500px) and (min-width: 10px) {
+    .navbar{
+        display: none;
+    }
+}
+    
+</style>
+
+
+
+
+
+
+<body>
+    
+<div class="navbar">
+    <a href="#home">Home</a>
+    <div class="dropdown">
+        <button class="dropbtn">Projects
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Musique</a>
+          <a href="#">Photographie</a>
+          <a href="#">Coding</a>
+          <a href="#">Langues</a>
+        </div>
+      </div>
+    <a href="#news">De moi</a>
+    <a href="#news">Contacte</a>
+    
+    <div class="dropdown" style="float: right;">
+      <button class="dropbtn">Langue
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="https://jvnx.github.io/de/">De</a>
+        <a href="https://jvnx.github.io/en/">En</a>
+        <a href="https://jvnx.github.io/fr/">Fr</a>
+        <a href="https://jvnx.github.io/cn/">中文</a>
+      </div>
+    </div>
+  </div> 
+
+<h1>Webpage</h1>
+<p>
+    Bienvenu*e sur mon website! <strong>:)</strong> <br>
+    Vous pouvez voir quelques de mes projets ici. <br><br>
+</p>
+
+
+
+
+
+</html>
